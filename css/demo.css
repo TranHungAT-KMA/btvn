@@ -1,0 +1,25 @@
+div.pesudo :nth-last-child(3){
+color: yellow;
+}
+div.pesudo :nth-of-type(2){
+	color: red;
+}
+div.pesudo :only-child{
+	color: blue;
+}
+input[nam='gender']:checked{
+	width: 200px;
+	height: 100px;
+	border: 1px solid red;
+	color: violet;
+}
+input[class='focus']:focus{
+	width: 200px;
+	height: 100px;
+	border: 2px solid red;
+}
+div.pesudo-element::first-letter{
+	color: red;
+	font-size: 50px;
+	font-variant: small-caps;
+}
